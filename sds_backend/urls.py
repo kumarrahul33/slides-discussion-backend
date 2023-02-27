@@ -19,5 +19,5 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('sds/',views.SlideQueView.as_view())
+    path('api/',views.SlideQueView.as_view())
 ]
